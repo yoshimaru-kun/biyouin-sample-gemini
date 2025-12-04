@@ -21,6 +21,8 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -260,7 +262,7 @@ h1, h2, h3 {
 }
 
 .hero__title {
-    font-size: 4rem;
+    font-size: clamp(2.2rem, 7vw, 4rem);
     line-height: 1.1;
     margin-bottom: 1rem;
     letter-spacing: 0.06em;
