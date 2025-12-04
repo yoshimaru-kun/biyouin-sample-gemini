@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --color-bg: #1a1a1a;
     --color-text: #f5f5f5;
     --color-primary: #d4af37; /* Gold */
@@ -263,9 +263,49 @@ h1, h2, h3 {
     font-size: 4rem;
     line-height: 1.1;
     margin-bottom: 1rem;
+    letter-spacing: 0.06em;
+    text-align: center;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeInUp 1s forwards 0.5s;
+}
+
+.hero__title-line {
+    display: block;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.9s forwards;
+}
+
+.hero__title-line--1 {
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--color-primary), #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 1px 0 rgba(0,0,0,0.25));
+    animation-delay: 0.2s;
+}
+
+.hero__title-line--2 {
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--color-primary), #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 1px 0 rgba(0,0,0,0.25));
+    animation-delay: 0.5s;
+}
+
+.hero__title-line--3 {
+    font-weight: 600;
+    background: linear-gradient(90deg, #ffffff, var(--color-primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 1px 0 rgba(0,0,0,0.25));
+    letter-spacing: 0.08em;
+    animation-delay: 0.8s;
 }
 
 .hero__subtitle {

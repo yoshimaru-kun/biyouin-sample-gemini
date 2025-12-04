@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lumière Hair Salon | 青山の隠れ家サロン</title>
     <meta name="description" content="青山にある完全予約制のプライベートヘアサロン。上質な空間と確かな技術で、あなただけの美しさを引き出します。">
@@ -38,11 +39,11 @@
             </h1>
             <nav class="header__nav">
                 <ul class="header__list">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#access">Access</a></li>
-                    <li><a href="https://example.com/reservation" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Reservation</a></li>
+                    <li><a href="#about">サロンについて</a></li>
+                    <li><a href="#menu">メニュー</a></li>
+                    <li><a href="#gallery">ギャラリー</a></li>
+                    <li><a href="#access">アクセス</a></li>
+                    <li><a href="https://example.com/reservation" class="btn btn--primary" target="_blank" rel="noopener noreferrer">予約</a></li>
                 </ul>
             </nav>
             <button class="header__hamburger" aria-label="Menu">
@@ -53,11 +54,11 @@
         </div>
         <div class="mobile-menu">
             <ul class="mobile-menu__list">
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#access">Access</a></li>
-                <li><a href="https://example.com/reservation" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Reservation</a></li>
+                <li><a href="#about">サロンについて</a></li>
+                <li><a href="#menu">メニュー</a></li>
+                <li><a href="#gallery">ギャラリー</a></li>
+                <li><a href="#access">アクセス</a></li>
+                <li><a href="https://example.com/reservation" class="btn btn--primary" target="_blank" rel="noopener noreferrer">予約</a></li>
             </ul>
         </div>
     </header>
@@ -66,17 +67,21 @@
         <section class="hero">
             <div class="hero__bg" style="background-image: url('assets/images/hero.png');"></div>
             <div class="hero__content">
-                <h2 class="hero__title">Unlock Your<br>True Beauty</h2>
-                <p class="hero__subtitle">あなただけの輝きを、ここで。</p>
-                <a href="https://example.com/reservation" class="btn btn--outline" target="_blank" rel="noopener noreferrer">Book Now</a>
+                <h2 class="hero__title">
+                    <span class="hero__title-line hero__title-line--1">ヘアデザインから始まる</span>
+                    <span class="hero__title-line hero__title-line--2">あなたの一日を</span>
+                    <span class="hero__title-line hero__title-line--3">Lumière</span>
+                </h2>
+                <p class="hero__subtitle">上質なカットと艶カラー。24時間Web予約受付。</p>
+                <a href="https://example.com/reservation" class="btn btn--outline" target="_blank" rel="noopener noreferrer">予約</a>
             </div>
         </section>
 
         <section id="about" class="section about">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">About Us</h2>
-                    <p class="section__subtitle">サロンについて</p>
+                    <h2 class="section__title">サロンについて</h2>
+                    <p class="section__subtitle">隠れ家のようなプライベート空間で、心地よいひとときを。</p>
                 </div>
                 <div class="about__content">
                     <div class="about__text">
@@ -90,50 +95,49 @@
         <section id="menu" class="section menu">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">Menu</h2>
-                    <p class="section__subtitle">メニュー</p>
+                    <h2 class="section__title">メニュー</h2>
+                    <p class="section__subtitle">価格はすべて税込み表記です。</p>
                 </div>
                 <div class="menu__grid">
                     <div class="menu__item">
                         <div class="menu__image">
-                            <img src="assets/images/menu-cut.png" alt="Cut">
+                            <img src="assets/images/menu-cut.png" alt="カット">
                         </div>
                         <div class="menu__details">
-                            <h3>Cut</h3>
-                            <p class="menu__price">¥6,600~</p>
+                            <h3>カット</h3>
+                            <p class="menu__price">¥6,600〜</p>
                             <p class="menu__desc">骨格や髪質に合わせた似合わせカット。シャンプー・ブロー込。</p>
                         </div>
                     </div>
                     <div class="menu__item">
                         <div class="menu__image">
-                            <img src="assets/images/menu-color.png" alt="Color">
+                            <img src="assets/images/menu-color.png" alt="カラー">
                         </div>
                         <div class="menu__details">
-                            <h3>Color</h3>
-                            <p class="menu__price">¥8,800~</p>
-                            <p class="menu__desc">ダメージを抑えた透明感のあるカラー。</p>
+                            <h3>カラー</h3>
+                            <p class="menu__price">¥8,800〜</p>
+                            <p class="menu__desc">ダメージを抑えた透明感のあるカラー。白髪染めにも対応。</p>
                         </div>
                     </div>
                     <div class="menu__item">
                         <div class="menu__image">
-                            <img src="assets/images/menu-perm.png" alt="Perm">
+                            <img src="assets/images/menu-perm.png" alt="パーマ">
                         </div>
                         <div class="menu__details">
-                            <h3>Perm</h3>
-                            <p class="menu__price">¥11,000~</p>
-                            <p class="menu__desc">柔らかな質感のデジタルパーマやコスメパーマ。</p>
+                            <h3>パーマ</h3>
+                            <p class="menu__price">¥11,000〜</p>
+                            <p class="menu__desc">柔らかな質感のデジタルパーマやコスメパーマに対応。</p>
                         </div>
                     </div>
                 </div>
-                <!-- Removed duplicate footer block under menu -->
             </div>
         </section>
 
         <section id="gallery" class="section gallery">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">Gallery</h2>
-                    <p class="section__subtitle">ギャラリー</p>
+                    <h2 class="section__title">ギャラリー</h2>
+                    <p class="section__subtitle">サロンの雰囲気やスタイル事例をご紹介。</p>
                 </div>
                 <div class="gallery__grid">
                     <div class="gallery__item" style="background-image: url('assets/images/gallery-1.png'); background-size: cover; background-position: center;"></div>
@@ -149,8 +153,8 @@
         <section id="access" class="section access">
             <div class="container">
                 <div class="section__header">
-                    <h2 class="section__title">Access</h2>
-                    <p class="section__subtitle">アクセス</p>
+                    <h2 class="section__title">アクセス</h2>
+                    <p class="section__subtitle">ご来店を心よりお待ちしております。</p>
                 </div>
                 <div class="access__content">
                     <div class="access__map">
@@ -159,15 +163,15 @@
                     <div class="access__info">
                         <dl>
                             <dt>住所</dt>
-                            <dd>大分県大分市〇〇〇ビル〇F</dd>
+                            <dd>東京都港区南青山1-2-3 ルミエールビル 3F</dd>
                             <dt>TEL</dt>
-                            <dd>0975-00-0000</dd>
+                            <dd>03-0000-0000</dd>
                             <dt>営業時間</dt>
                             <dd>平日 10:00-20:00 / 土日祝 9:00-19:00</dd>
                             <dt>定休日</dt>
                             <dd>火曜日</dd>
                         </dl>
-                        <a href="https://example.com/reservation" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Web予約</a>
+                        <a href="https://example.com/reservation" class="btn btn--primary" target="_blank" rel="noopener noreferrer">予約</a>
                     </div>
                 </div>
             </div>
