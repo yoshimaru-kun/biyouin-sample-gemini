@@ -1,4 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
+    try {
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+        if (!location.hash) {
+            window.scrollTo(0, 0);
+        }
+    } catch (e) {}
     const hamburger = document.querySelector('.header__hamburger');
     const mobileMenu = document.querySelector('.mobile-menu');
     const mobileLinks = document.querySelectorAll('.mobile-menu a');
